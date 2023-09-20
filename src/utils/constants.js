@@ -1,9 +1,10 @@
-const API_URL = 'rodric74.alwaysdata.net/api/books';
+const API_URL = 'https://rodric74.alwaysdata.net/api';
+
 export const API_ROUTES = {
-  SIGN_UP: `${API_URL}/api/auth/signup`,
-  SIGN_IN: `${API_URL}/api/auth/login`,
-  BOOKS: `${API_URL}/api/books`,
-  BEST_RATED: `${API_URL}/api/books/bestrating`,
+  SIGN_UP: `${API_URL}/auth/signup`,
+  SIGN_IN: `${API_URL}/auth/login`,
+  BOOKS: `${API_URL}/books`,
+  BEST_RATED: `${API_URL}/books/bestrating`,
 };
 
 export const APP_ROUTES = {
