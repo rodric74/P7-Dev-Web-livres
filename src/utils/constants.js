@@ -1,4 +1,4 @@
-const API_URL = 'rodric74.alwaysdata.net';
+const API_URL = 'rodric74.alwaysdata.net/api/books';
 export const API_ROUTES = {
   SIGN_UP: `${API_URL}/api/auth/signup`,
   SIGN_IN: `${API_URL}/api/auth/login`,
